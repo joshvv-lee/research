@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light;
+  font-family: 'Pretendard', 'Noto Sans KR', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fffaf5;
+  color: #2c2c2c;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.survey-card,
+.result-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+select,
+button {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+select {
+  min-width: 240px;
+  margin-right: 8px;
+}
+
+button {
+  background: #ff8b7b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6f5b;
+}
+
+.map {
+  width: 100%;
+  height: 420px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+#placeList {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+#placeList li {
+  margin-bottom: 6px;
+}

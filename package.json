@@ -1,0 +1,15 @@
+{
+  "name": "spring-dining-survey-app",
+  "version": "1.0.0",
+  "description": "봄맞이 회식장소 설문조사 + 카카오지도 연동 앱",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
